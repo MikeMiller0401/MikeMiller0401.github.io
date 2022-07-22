@@ -1,0 +1,21 @@
+- name: Software development
+  keywords:
+      - C++
+      - Python
+
+- name: Embedded development
+  keywords:
+      - STM32
+      - Arduino
+
+- name: Mechanical design
+  keywords:
+      - AutoCAD
+      - SolidWorks  
+
+- name: Media production
+  keywords:
+      - Adobe PS
+      - Adobe PR
+      - Final Cut Pro      
+      
