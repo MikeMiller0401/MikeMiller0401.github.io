@@ -6,9 +6,10 @@ description: 初次使用PyQt需要知道的内容
 keywords: PyQt, 笔记
 topmost: false
 ---
-
-
-[TOC]
+- [一、 QTdesigner 的设置](#一-qtdesigner-的设置)
+- [二、使用 UI 文件加载界面](#二使用-ui-文件加载界面)
+- [三、转换 UI 文件为 Python 代码](#三转换-ui-文件为-python-代码)
+- [四、使用 Python 代码加载 UI 界面](#四使用-python-代码加载-ui-界面)
 
 ## 一、 QTdesigner 的设置
 
@@ -21,8 +22,6 @@ topmost: false
 程序目录（designer.exe文件的绝对路径）：C:\ProgramData\Anaconda3\envs\Opencv\Library\bin\designer.exe
 
 工作目录（designer.exe文件所在文件夹的绝对路径）：C:\ProgramData\Anaconda3\envs\Opencv\Library\bin
-
-[TOC]
 
 ## 二、使用 UI 文件加载界面
 
@@ -46,8 +45,6 @@ if __name__ == "__main__":
 
 通过加载 UI 文件的方式进行页面绘制的好处就是在改动界面后，不需要转化，直接运行，特别方便。
 
-[TOC]
-
 ## 三、转换 UI 文件为 Python 代码
 
 当需要添加额外的申明或者遇到一些奇奇怪怪的问题时，我们可能需要希望直接更改 .py 文件中的代码而不是在 QTdesigner 里面试错，此时就需要将 UI 文件转换为包含了界面设定的 Python 文件，网上关于这部分的资料相当杂乱，我就拿最麻烦但是也最容易实现的一种方法为例：
@@ -70,8 +67,6 @@ python -m PyQt5.uic.pyuic XXX.ui -o YYY.py
 <div align=center>
 <img src="/images/posts/PyQt_The_first_time/ui-py.png" width="60%">
 </div>
-
-[TOC]
 
 ## 四、使用 Python 代码加载 UI 界面
 
