@@ -7,8 +7,19 @@ description: self.button.clicked.connect
 keywords: button, clicked, connect
 ---
 
+## 定义
+
+无
+
+## 解释
+
 self.button.clicked.connect(self.click) 是一个将信号与槽链接的方法（method），它的作用是在点击 button 时，执行（self.click）里的方法。
 
+## 用法
+
+无
+
+## 示例
 
 ```python
 import sys
@@ -34,3 +45,7 @@ if __name__ == '__main__':
     sys.exit(app.exec_())
 
 ```
+
+## 注释
+
+无
