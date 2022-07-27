@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: find()
+title: find
 cate1: Python
 cate2: 
 description: find()

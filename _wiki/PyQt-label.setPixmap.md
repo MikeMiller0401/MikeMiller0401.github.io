@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: label.setPixmap()
+title: label.setPixmap
 cate1: PyQt5
 cate2: 
 description: label.setPixmap()

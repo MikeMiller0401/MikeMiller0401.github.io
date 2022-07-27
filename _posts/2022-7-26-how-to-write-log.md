@@ -153,3 +153,7 @@ datefmt=%Y-%m-%d %H:%M:%S # 日志输出时间的格式
 2022-07-26 14:42:32 - ERROR - test.py[:16] - test - error message
 2022-07-26 14:42:32 - CRITICAL - test.py[:17] - test - critical message
 ```
+
+参考文献：
+- https://www.cnblogs.com/yyds/p/6901864.html
+- https://www.cnblogs.com/yyds/p/6885182.html
