@@ -7,22 +7,24 @@ description: label.setPixmap()
 keywords: File, label, setPixmap()
 ---
 
-## 定义
+## 语法
 
 ```
 PyQt5.QtWidgets.QLabel  
 def setPixmap(self, a0: QPixmap) -> None
 ```
 
-## 解释
+## 参数
 
 label.setPixmap()是一个在 label 中实例化图片的方法，图片必须是 QPixmap 形式的。
 
-## 用法
+- self ：类对象，自动传入
+- a0 ：需要在label上显示的图像
 
-```
-setPixmap(self, QPixmap)
-```
+## 返回值
+
+无
+
 ## 示例
 
 INPUT  

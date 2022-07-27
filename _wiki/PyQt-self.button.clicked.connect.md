@@ -7,15 +7,18 @@ description: self.button.clicked.connect
 keywords: button, clicked, connect
 ---
 
-## 定义
+## 语法
 
 无
 
-## 解释
+## 参数
 
 self.button.clicked.connect(self.click) 是一个将信号与槽链接的方法（method），它的作用是在点击 button 时，执行（self.click）里的方法。
 
-## 用法
+- button ：待链接的按钮名
+- self.click : 待链接的方法名
+
+## 返回值
 
 无
 

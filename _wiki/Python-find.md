@@ -7,7 +7,7 @@ description: find()
 keywords: find, Python
 ---
 
-## 定义
+## 语法
 
 ```
 def find(self,
@@ -18,11 +18,16 @@ def find(self,
 
 ## 解释
 
-Python find() 方法检测字符串 S 中是否包含子字符串 sub ，如果指定 start 和 end 范围，则检查是否包含在指定范围内，如果包含子字符串返回开始的索引值，否则返回-1。  
+Python find() 方法检测字符串 S 在指定的 [start, end] 范围中是否包含子字符串 sub  
 
-## 用法
+- self ：类，自动传入
+- sub ：待检测的字符串
+- start ：检测开始的位置
+- end：检测结束的位置
 
-S.find(sub, start=0, end=len(string))
+## 返回值
+
+如果在指定范围内检查到了子字符串，则返回子字符串的索引值，否则返回-1。  
 
 ## 示例
 
