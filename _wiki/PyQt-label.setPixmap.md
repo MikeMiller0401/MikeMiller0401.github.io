@@ -58,6 +58,7 @@ if __name__ == '__main__':
 ## 注释
 
 若想要使图片填充整个label，需要添加：
+
 ```
 self.label1.setScaledContents(True)
 ```
