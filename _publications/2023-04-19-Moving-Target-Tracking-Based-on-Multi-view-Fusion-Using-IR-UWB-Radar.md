@@ -1,7 +1,7 @@
 ---
 title: "Moving Target Tracking Based on Multi-view Fusion Using IR-UWB Radar"
 collection: publications
-permalink: /publication/2023-04-19-Moving-Target-Tracking-Based-on-Multi-view-Fusion-Using-IR-UWB-Radar
+permalink: /publications/2023-04-19-Moving-Target-Tracking-Based-on-Multi-view-Fusion-Using-IR-UWB-Radar
 excerpt: 'In this paper, we propose a moving target tracking method using IR-UWB signals on the basis of understanding the composition of the received signal spectrum in multipath environments.'
 date: 2023-04-19
 venue: 'Journal of Software'
