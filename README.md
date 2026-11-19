@@ -4,7 +4,7 @@
 
 ## 本地开发
 
-需要 Ruby 3.3.5、Bundler 4.0.6 和 Node.js 22（JavaScript 压缩／模板资源处理）。
+需要 Ruby 3.3.x（本地已验证 3.3.5；CI 使用最新 3.3 补丁版）、Bundler 4.0.6 和 Node.js 22（JavaScript 压缩／模板资源处理）。
 
 ```sh
 gem install bundler -v 4.0.6
