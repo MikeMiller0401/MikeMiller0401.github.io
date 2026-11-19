@@ -1,0 +1,5 @@
+assets/vendor/
+_site/
+output/
+node_modules/
+Gemfile.lock

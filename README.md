@@ -1,22 +1,39 @@
-# Chenyu Tian · 学术个人主页
+# Chenyu Tian · 田辰煜
 
-根据提供的英文简历制作，展示研究方向、7 篇论文、4 项科研项目、教育背景及联系方式。原版 PDF 与其中的个人照片保存在 `assets/`。
+基于 [al-folio](https://github.com/alshedivat/al-folio) v1.x 的中英文学术主页。保留原主页的个人介绍、4 段教育经历、7 篇已发表论文、4 项科研项目、ORCID、原版简历和最新个人照片。
 
-无需安装依赖或构建。直接打开 `index.html`，或在本目录运行 `python3 -m http.server 8000`，访问 http://localhost:8000。文件也可用于 GitHub Pages。
+## 本地开发
+
+需要 Ruby 3.3.5、Bundler 4.0.6 和 Node.js 22（JavaScript 压缩／模板资源处理）。
+
+```sh
+gem install bundler -v 4.0.6
+bundle install
+bundle exec jekyll serve --host 127.0.0.1 --port 4000
+```
+
+构建验证：`JEKYLL_ENV=production bundle exec jekyll build --trace`。
 
 ## 更新内容
 
-- `index.html`：个人信息、论文、项目与教育经历。
-- `style.css`：响应式布局、主题颜色与打印样式。
-- `script.js`：页脚年份与打印功能。
-- `assets/Chenyu-Tian-Resume.pdf`：供访客下载的原版简历。
+- `_pages/about.md`：个人介绍、研究方向、教育经历与代表论文。
+- `_bibliography/papers.bib`：全部 7 篇论文。标记 `selected = {true}` 的论文显示在首页；保留原有 DOI，不补写未知信息。
+- `_projects/*.md`：科研项目详情。
+- `_pages/projects.md`：项目列表。
+- `_data/socials.yml`：邮箱、ORCID 与简历下载。
+- `assets/img/chenyu-tian.jpg`：当前主页照片。
+- `assets/Chenyu-Tian-Resume.pdf`：原版简历，保留原下载地址。
+- `_config.yml`：站点信息及 al-folio 功能配置。GitHub 用户主页使用空 `baseurl`。
+- `_includes/site-tools.liquid`、`assets/js/profile.js`、`assets/css/profile.css`：站点语言切换、打印与少量内容样式。正文通过 `data-zh` / `data-en` 保留双语；默认中文，记住用户选择。论文标题沿用正式英文。
 
-论文信息按所提供简历与后续 ORCID 截图更新：新增 2026 年 IEEE Sensors Journal 论文，Gaussian splatting 论文更新为 2026 年已发表并补充 DOI。未展示容易过时的年龄及博士年级。分区和影响因子未作为网页指标展示。
+al-folio 布局、主题、搜索、深色模式和论文排版由固定版本的上游 gems 提供，未复制覆盖其布局文件。原站点可从 Git 历史恢复；原照片及附件仍保留。
 
-点击“下载原版简历”获取 PDF；点击“打印网页”可使用浏览器另存为 PDF。
+## GitHub Pages
 
-教育背景按后续 ORCID 截图更新为四段：博洛尼亚大学访问博士（2026.09 至今）、中国地质大学（武汉）博士（2024.09 至今）、硕士（2022.09–2024.06）、学士（2018.09–2022.06）。原简历的硕博阶段综合成绩未分配到拆分后的学位条目。
+工作流 `.github/workflows/deploy.yml` 在推送 `main` 后构建并发布，PR 只构建不部署。首次使用需在 GitHub 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。这与 Codex 云环境的发布无关。
 
-根据出版方 BibTeX 新增 Specular-suppressed three-dimensional Gaussian splatting for transparent object reconstruction（2026，Vol. 182，Article 116128，DOI: 10.1016/j.engappai.2026.116128），保留此前不同 DOI 的 Gaussian splatting 论文。引用文件位于 assets/Tian-2026-Specular-Suppressed-3DGS.bib。
+模板来源和版本记录见 `docs/template-source.md`；模板 MIT 许可证保留在 `LICENSE`。
 
-页面右上角提供中文 / EN 切换，默认中文并在浏览器中记住选择。正文翻译保存在 index.html 的 data-zh / data-en 属性中。打印使用当前语言，论文标题保留正式英文。
+浏览器回归检查：`npm ci` 后运行 `npm run test:site`（先构建 `_site`，需 Python 3 和 Chromium；可用 `CHROMIUM_PATH` 指定浏览器路径）。覆盖双语及记忆、照片、简历、打印、全部论文／DOI、论文筛选、深色模式及手机布局。
+
+图标字体与返回顶部脚本保存在 `assets/vendor/`，附来源和许可说明，以免关键界面依赖外部 CDN。
