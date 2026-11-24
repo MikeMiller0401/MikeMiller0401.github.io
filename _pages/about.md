@@ -1,8 +1,9 @@
+
 ---
 layout: about
 title: 关于
 permalink: /
-subtitle: 3D Reconstruction · Neural Radiance Fields · Computer Vision
+subtitle: Spatial AI · 3D Computer Vision · Feed-forward 3D Reconstruction
 profile:
   align: right
   image: chenyu-tian.jpg
@@ -19,16 +20,189 @@ latest_posts:
 
 {% include site-tools.liquid %}
 
-<p class="role"><span data-en="PhD Student · Visiting PhD" data-zh="博士研究生 · 访问博士">博士研究生 · 访问博士</span></p>
-<p class="intro"><span data-en="I am a PhD student at the School of Mechanical Engineering and Electronic Information, China University of Geosciences (Wuhan), and a visiting PhD student in the Department of Computer Science and Engineering at the University of Bologna since September 2026. My research focuses on vision-based 3D reconstruction, neural radiance fields, and 3D Gaussian splatting for transparent and specular objects and industrial visual perception." data-zh="就读于中国地质大学（武汉）机械与电子信息学院，自 2026 年 9 月起在博洛尼亚大学计算机科学与工程系开展访问博士研究。关注基于视觉的三维重建、神经辐射场与 3D Gaussian Splatting，研究透明及高光物体的几何重建与工业视觉感知。">就读于中国地质大学（武汉）机械与电子信息学院，自 2026 年 9 月起在博洛尼亚大学计算机科学与工程系开展访问博士研究。关注基于视觉的三维重建、神经辐射场与 3D Gaussian Splatting，研究透明及高光物体的几何重建与工业视觉感知。</span></p>
-<p class="profile-actions"><a class="btn btn-outline-primary" href="{{ '/assets/Chenyu-Tian-Resume.pdf' | relative_url }}" download><span data-zh="下载原版简历" data-en="Download CV">下载原版简历</span></a> <button class="btn btn-outline-primary" type="button" id="print-resume"><span data-zh="打印网页" data-en="Print page">打印网页</span></button></p>
-<div><h3><span data-en="Research areas" data-zh="研究领域">研究领域</span></h3><p><span data-en="My research covers neural implicit representations of transparent and specular objects, glass bottle surface reconstruction, and 3D perception for manufacturing systems. I also contribute to research on industrial anomaly detection, transmission design, and coordinated control." data-zh="研究内容涉及透明及高光物体的神经隐式表征、玻璃瓶表面重建，以及面向制造系统的三维感知；同时参与工业异常检测、传动系统设计与协同控制相关研究。">研究内容涉及透明及高光物体的神经隐式表征、玻璃瓶表面重建，以及面向制造系统的三维感知；同时参与工业异常检测、传动系统设计与协同控制相关研究。</span></p><div class="research-interests" aria-label="研究方向" data-aria-en="Research interests" data-aria-zh="研究方向"><span>Vision-based 3D Reconstruction</span><span>Neural Radiance Fields</span><span>3D Gaussian Splatting</span><span>Computer Vision</span></div></div>
-<h2 id="education"><span data-zh="教育经历" data-en="Education">教育经历</span></h2>
-<div class="education-list"><article><div><h3><span data-en="University of Bologna" data-zh="博洛尼亚大学">博洛尼亚大学</span></h3><time><span data-en="Sep. 2026 — Present" data-zh="2026.09 — 至今">2026.09 — 至今</span></time></div><p>University of Bologna · Bologna, Italy</p><p><a href="https://cvlab.unibo.it/team/" rel="noopener noreferrer" target="_blank"><span data-en="Computer Vision Laboratory (CVLab)" data-zh="计算机视觉实验室（CVLab）">计算机视觉实验室（CVLab）</span> ↗</a></p><p><span data-en="Department of Computer Science and Engineering · Visiting PhD" data-zh="计算机科学与工程系 · 访问博士">计算机科学与工程系 · 访问博士</span></p></article>
-<article><div><h3><span data-en="China University of Geosciences (Wuhan)" data-zh="中国地质大学（武汉）">中国地质大学（武汉）</span></h3><time><span data-en="Sep. 2024 — Present" data-zh="2024.09 — 至今">2024.09 — 至今</span></time></div><p>China University of Geosciences · Wuhan, China</p><p><span data-en="School of Mechanical Engineering and Electronic Information · Mechanical Engineering · PhD" data-zh="机械与电子信息学院 · 机械工程 · 博士研究生">机械与电子信息学院 · 机械工程 · 博士研究生</span></p></article>
-<article><div><h3><span data-en="China University of Geosciences (Wuhan)" data-zh="中国地质大学（武汉）">中国地质大学（武汉）</span></h3><time>2022.09 — 2024.06</time></div><p>China University of Geosciences · Wuhan, China</p><p><span data-en="School of Mechanical Engineering and Electronic Information · Mechanical Engineering · Master’s" data-zh="机械与电子信息学院 · 机械工程 · 硕士">机械与电子信息学院 · 机械工程 · 硕士</span></p></article>
-<article><div><h3><span data-en="China University of Geosciences (Wuhan)" data-zh="中国地质大学（武汉）">中国地质大学（武汉）</span></h3><time>2018.09 — 2022.06</time></div><p>China University of Geosciences · Wuhan, China</p><p><span data-en="School of Mechanical Engineering and Electronic Information · Mechanical Engineering · Bachelor’s" data-zh="机械与电子信息学院 · 机械工程 · 学士">机械与电子信息学院 · 机械工程 · 学士</span></p><p>GPA 3.37 / 5.0 <span>Top 15%</span></p></article></div>
-<h2 id="publications"><span data-zh="代表论文" data-en="Selected publications">代表论文</span></h2>
-<div class="publications">{% bibliography --query @*[selected=true] %}</div>
-<p><a href="{{ "/publications/" | relative_url }}"><span data-zh="浏览全部 7 篇论文 →" data-en="View all 7 publications →">浏览全部 7 篇论文 →</span></a></p>
-<p><a href="{{ "/projects/" | relative_url }}"><span data-zh="浏览 4 项科研项目 →" data-en="View 4 research projects →">浏览 4 项科研项目 →</span></a></p>
+<p class="role">
+  <span data-en="PhD Candidate · Visiting PhD Student"
+        data-zh="博士研究生 · 访问博士生">
+    博士研究生 · 访问博士生
+  </span>
+</p>
+
+<p class="intro">
+  <span data-en="I am a PhD candidate at the School of Mechanical Engineering and Electronic Information, China University of Geosciences (Wuhan). Since September 2026, I have been a visiting PhD student in the Department of Computer Science and Engineering at the University of Bologna. My research interests lie in spatial AI and 3D computer vision, with a particular focus on feed-forward 3D reconstruction and learning-based 3D scene representations."
+        data-zh="现为中国地质大学（武汉）机械与电子信息学院博士研究生，自2026年9月起在博洛尼亚大学计算机科学与工程系开展博士访问研究。主要研究方向为空间智能与三维计算机视觉，聚焦前馈式三维重建与三维场景表征学习。">
+    现为中国地质大学（武汉）机械与电子信息学院博士研究生，自2026年9月起在博洛尼亚大学计算机科学与工程系开展博士访问研究。主要研究方向为空间智能与三维计算机视觉，聚焦前馈式三维重建与三维场景表征学习。
+  </span>
+</p>
+
+<p class="profile-actions">
+  <a class="btn btn-outline-primary"
+     href="{{ '/assets/Chenyu-Tian-Resume.pdf' | relative_url }}"
+     download>
+    <span data-zh="下载简历" data-en="Download CV">下载简历</span>
+  </a>
+  <button class="btn btn-outline-primary"
+          type="button"
+          id="print-resume">
+    <span data-zh="打印网页" data-en="Print page">打印网页</span>
+  </button>
+</p>
+
+<div>
+  <h3>
+    <span data-en="Research Interests" data-zh="研究方向">
+      研究方向
+    </span>
+  </h3>
+
+  <p>
+    <span data-en="My current research focuses on efficient and generalizable feed-forward 3D reconstruction and learning-based 3D scene representations, aiming to advance spatial perception and geometric understanding from visual observations. My previous research explored neural radiance fields, 3D Gaussian splatting, and the reconstruction of transparent and specular objects, with applications in industrial 3D perception."
+          data-zh="当前研究聚焦高效、可泛化的前馈式三维重建与三维场景表征学习，致力于提升基于视觉观测的空间感知与几何理解能力。前期研究主要涉及时空视觉领域中的神经辐射场、三维高斯泼溅及透明与高光物体三维重建，并探索其在工业三维感知中的应用。">
+      当前研究聚焦高效、可泛化的前馈式三维重建与三维场景表征学习，致力于提升基于视觉观测的空间感知与几何理解能力。前期研究主要涉及时空视觉领域中的神经辐射场、三维高斯泼溅及透明与高光物体三维重建，并探索其在工业三维感知中的应用。
+    </span>
+  </p>
+
+  <div class="research-interests"
+       aria-label="研究方向"
+       data-aria-en="Research interests"
+       data-aria-zh="研究方向">
+    <span>Spatial AI</span>
+    <span>3D Computer Vision</span>
+    <span>Feed-forward 3D Reconstruction</span>
+    <span>3D Scene Representation Learning</span>
+    <span>Novel View Synthesis</span>
+    <span>3D Gaussian Splatting</span>
+  </div>
+</div>
+
+<h2 id="education">
+  <span data-zh="教育经历" data-en="Education">教育经历</span>
+</h2>
+
+<div class="education-list">
+
+  <article>
+    <div>
+      <h3>
+        <span data-en="University of Bologna"
+              data-zh="博洛尼亚大学">
+          博洛尼亚大学
+        </span>
+      </h3>
+      <time>
+        <span data-en="Sep. 2026 — Present"
+              data-zh="2026.09 — 至今">
+          2026.09 — 至今
+        </span>
+      </time>
+    </div>
+    <p>University of Bologna · Bologna, Italy</p>
+    <p>
+      <a href="https://cvlab.unibo.it/team/"
+         rel="noopener noreferrer"
+         target="_blank">
+        <span data-en="Computer Vision Laboratory (CVLab)"
+              data-zh="计算机视觉实验室（CVLab）">
+          计算机视觉实验室（CVLab）
+        </span> ↗
+      </a>
+    </p>
+    <p>
+      <span data-en="Department of Computer Science and Engineering · Visiting PhD Student"
+            data-zh="计算机科学与工程系 · 访问博士生">
+        计算机科学与工程系 · 访问博士生
+      </span>
+    </p>
+  </article>
+
+  <article>
+    <div>
+      <h3>
+        <span data-en="China University of Geosciences (Wuhan)"
+              data-zh="中国地质大学（武汉）">
+          中国地质大学（武汉）
+        </span>
+      </h3>
+      <time>
+        <span data-en="Sep. 2024 — Present"
+              data-zh="2024.09 — 至今">
+          2024.09 — 至今
+        </span>
+      </time>
+    </div>
+    <p>China University of Geosciences · Wuhan, China</p>
+    <p>
+      <span data-en="School of Mechanical Engineering and Electronic Information · Mechanical Engineering · PhD Candidate"
+            data-zh="机械与电子信息学院 · 机械工程 · 博士研究生">
+        机械与电子信息学院 · 机械工程 · 博士研究生
+      </span>
+    </p>
+  </article>
+
+  <article>
+    <div>
+      <h3>
+        <span data-en="China University of Geosciences (Wuhan)"
+              data-zh="中国地质大学（武汉）">
+          中国地质大学（武汉）
+        </span>
+      </h3>
+      <time>2022.09 — 2024.06</time>
+    </div>
+    <p>China University of Geosciences · Wuhan, China</p>
+    <p>
+      <span data-en="School of Mechanical Engineering and Electronic Information · Mechanical Engineering · Master’s"
+            data-zh="机械与电子信息学院 · 机械工程 · 硕士">
+        机械与电子信息学院 · 机械工程 · 硕士
+      </span>
+    </p>
+  </article>
+
+  <article>
+    <div>
+      <h3>
+        <span data-en="China University of Geosciences (Wuhan)"
+              data-zh="中国地质大学（武汉）">
+          中国地质大学（武汉）
+        </span>
+      </h3>
+      <time>2018.09 — 2022.06</time>
+    </div>
+    <p>China University of Geosciences · Wuhan, China</p>
+    <p>
+      <span data-en="School of Mechanical Engineering and Electronic Information · Mechanical Engineering · Bachelor’s"
+            data-zh="机械与电子信息学院 · 机械工程 · 学士">
+        机械与电子信息学院 · 机械工程 · 学士
+      </span>
+    </p>
+    <p>GPA 3.37 / 5.0 <span>Top 15%</span></p>
+  </article>
+
+</div>
+
+<h2 id="publications">
+  <span data-zh="代表论文" data-en="Selected Publications">
+    代表论文
+  </span>
+</h2>
+
+<div class="publications">
+  {% bibliography --query @*[selected=true] %}
+</div>
+
+<p>
+  <a href="{{ '/publications/' | relative_url }}">
+    <span data-zh="浏览全部 7 篇论文 →"
+          data-en="View all 7 publications →">
+      浏览全部 7 篇论文 →
+    </span>
+  </a>
+</p>
+
+<p>
+  <a href="{{ '/projects/' | relative_url }}">
+    <span data-zh="浏览 4 项科研项目 →"
+          data-en="View 4 research projects →">
+      浏览 4 项科研项目 →
+    </span>
+  </a>
+</p>
