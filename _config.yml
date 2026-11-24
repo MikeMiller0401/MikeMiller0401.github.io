@@ -3,11 +3,10 @@ first_name: Chenyu
 middle_name: ""
 last_name: Tian
 contact_note: tiancy@cug.edu.cn
-description: 田辰煜 · 三维重建与计算机视觉 / Chenyu Tian · 3D Reconstruction & Computer Vision
+description: 田辰煜 · 空间人工智能与三维计算机视觉 / Chenyu Tian · Spatial AI & 3D Computer Vision
 footer_text: Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by GitHub Pages.
-keywords: Chenyu Tian, 田辰煜, 3D reconstruction, NeRF, Gaussian splatting, computer
-  vision
+keywords: Chenyu Tian, 田辰煜, spatial AI, 3D computer vision, feed-forward 3D reconstruction, learning-based 3D scene representations
 lang: zh-CN
 icon: 🎓
 apple_touch_icon: null

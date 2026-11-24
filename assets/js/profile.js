@@ -1,8 +1,8 @@
 (() => {
   const storageKey = "resume-language";
   const descriptions = {
-    zh: "田辰煜，中国地质大学（武汉）机械工程博士研究生、博洛尼亚大学访问博士。研究方向包括三维重建、神经辐射场、3D Gaussian Splatting 与计算机视觉。",
-    en: "Chenyu Tian, PhD student at China University of Geosciences (Wuhan) and visiting PhD at the University of Bologna. Research in 3D reconstruction, neural radiance fields, 3D Gaussian splatting, and computer vision.",
+    zh: "田辰煜，中国地质大学（武汉）机械工程博士研究生、博洛尼亚大学访问博士。我的研究兴趣集中在空间人工智能与三维计算机视觉，尤其关注前馈式三维重建及基于学习的三维场景表示。",
+    en: "Chenyu Tian, PhD student at China University of Geosciences (Wuhan) and visiting PhD at the University of Bologna. My research interests lie in spatial AI and 3D computer vision, with a particular focus on feed-forward 3D reconstruction and learning-based 3D scene representations.",
   };
   // Keep the language controls outside the about layout's floated portrait.
   const controls = document.querySelector(".language-switch");
